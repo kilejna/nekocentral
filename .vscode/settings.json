@@ -1,0 +1,18 @@
+{
+	"prettier.useEditorConfig": true,
+	"prettier.configPath": ".prettierrc",
+	"prettier.prettierPath": "./node_modules/prettier",
+	"prettier.enableDebugLogs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "always"
+	},
+	"eslint.nodePath": "./node_modules",
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html"
+	}
+}
